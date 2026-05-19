@@ -1,4 +1,4 @@
-# GoldAPI MCP Server
+# GoldAPI.io MCP Server
 
 Official Model Context Protocol server for GoldAPI.io precious metals data.
 
@@ -6,7 +6,7 @@ Official Model Context Protocol server for GoldAPI.io precious metals data.
 
 ## Features
 
-- Latest GoldAPI spot prices for gold, silver, platinum, and palladium.
+- Latest GoldAPI.io spot prices for gold, silver, platinum, and palladium.
 - Historical GoldAPI prices by date.
 - Metal value calculations by weight, unit, and purity.
 - Supported currencies for major fiat currencies and BTC.
