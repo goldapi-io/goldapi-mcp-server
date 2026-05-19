@@ -1,0 +1,59 @@
+{
+  "name": "@goldapi/mcp-server",
+  "version": "1.0.0",
+  "description": "Official GoldAPI MCP server for precious metals prices and calculations.",
+  "type": "module",
+  "bin": {
+    "goldapi-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    ".env.example"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "lint": "tsc --noEmit",
+    "verify": "npm run build && node dist/index.js --verify"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "gold",
+    "goldapi",
+    "silver",
+    "precious-metals",
+    "ai-agents",
+    "claude",
+    "cursor",
+    "chatgpt",
+    "bullion",
+    "jewelry",
+    "pricing"
+  ],
+  "author": "GoldAPI.io",
+  "license": "MIT",
+  "homepage": "https://www.goldapi.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldapi-io/goldapi-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/goldapi-io/goldapi-mcp-server/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
